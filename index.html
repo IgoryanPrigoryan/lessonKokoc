@@ -2,48 +2,62 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Я пишу текст для окна браузера, например Google Chrome</title>
+        <title>css</title>
+        <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
-        <p>Я пишу текст для окна браузера, например Google Chrome</p>
-    <h1>Заголовок H1</h1>
-    <h2>Заголовок H2</h2>
+    <h2>Этот заголовок H2</h2>
     <p>Текст внутри <br> тега p
     <br>
     <strong>Текс жирный</strong>
     <br>
     <i>Текст курсивом</i>
         </p>
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" > 
-        ссылка на YouTube </a>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" > ссылка на YouTube </a>
     <br>
     <a href="https://ru.wikipedia.org/wiki/Программирование#Примечания" target="_blank" >Якорь на параграф wikipedia</a>
     <ul>
-        <li>Первый элемент списка</li>
-        <li>Второй элемент списка</li>
-        <li><a href="https://yandex.ru/" target="_blank" >Yandex</a> ссылка на главную страницу</li>
+        <li style="color: blue;">Первый элемент списка</li>
+        <li style="color: blue;">Второй элемент списка</li>
+        <li><a href="https://yandex.ru/" target="_blank" >Yandex</a> ссылка на главную страницу
+            <ul>
+                <li style="color: blue;">Второй уровень</li>
+                <li style="color: blue;">Второй уровень</li>
+            </ul>
+        </li>
     </ul>
 <hr>
 <table border="1">
     <thead>
-        <th>Наименования фрукта</th>
-        <th>Кол-во</th>
+        <tr>
+            <th>Наименования фрукта</th>
+            <th>Кол-во</th>
+        </tr>
     </thead>
     <tbody>
-    <tr>
-       <td>Яблоко</td> 
-       <td>2</td> 
-    </tr>
-    <tr>
-        <td>Апельсин</td> 
-        <td>3</td> 
-     </tr>
+        <tr>
+            <td>Яблоко</td> 
+            <td>2 <img src="https://i.imgur.com/Iuuv3Dq.png" height="90"> </td> 
+        </tr>
+        <tr>
+            <td>Апельсин</td> 
+            <td>3</td> 
+        </tr>
     </tbody>
     <tfoot>
-     <tr>
-        <td colspan="2">Итог: 5</td> 
-     </tr>
+        <tr>
+            <td colspan="2">Итог: 5</td> 
+        </tr>
     </tfoot>
 </table>
+<form class="" action="index.html" method="post">
+    <input type="month">
+  </form>
+<br>
+<a href="https://www.youtube.com/watch?v=SsFI40bXROs" target="_blank" style="color: red;"> Первая ссылка </a>
+<br>
+<a href="https://www.youtube.com/watch?v=SsFI40bXROs" download="lol" style="color: silver;"> Вторая ссылка </a>
+<br>
+<a href="https://www.youtube.com/watch?v=SsFI40bXROs" style="color: slateblue;"> Вторая ссылка </a>
     </body>
 </html>
